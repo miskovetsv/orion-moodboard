@@ -5,42 +5,24 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  pages: write
+  id-token: write
 concurrency:
   group: moodboard-pages
   cancel-in-progress: false
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v6
-      - name: Import original media once
-        run: node scripts/import-media.mjs
-      - name: Preserve media in this repository
-        run: |
-          git add dist/assets
-          if ! git diff --cached --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Import approved moodboard images and videos'
-            git push origin HEAD:main
-          fi
-      - name: Upload public site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: dist
   deploy:
-    needs: prepare
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v6
       - uses: actions/configure-pages@v5
+      - name: Upload public site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
