@@ -1,0 +1,352 @@
+[
+  {
+    "file": "assets/approved/fabric-main.png",
+    "size": 1811050,
+    "sha256": "f035457d1e0a22d4077216f6e972f7ffc6f07b7fb74f26b3e6f13aa80bd3f559"
+  },
+  {
+    "file": "assets/approved/fabric-particles.png",
+    "size": 1904112,
+    "sha256": "5394db4b23ac2d5084d1867f99edb0bcaa0a1aa7a300726eef89d59876d2a89d"
+  },
+  {
+    "file": "assets/approved/intro1-main-reel-poster.jpg",
+    "size": 7363,
+    "sha256": "a39c7a67684da7ea2704230822707291408c4f5a8c84c8be4db84406ca13d05d"
+  },
+  {
+    "file": "assets/approved/intro1-main-reel.mp4",
+    "size": 7852644,
+    "sha256": "858586088b7ceb6b108e0ea5d016f552c9809783a105ab8aed49b84a2b44d2f8"
+  },
+  {
+    "file": "assets/approved/irina-cinema.jpg",
+    "size": 69701,
+    "sha256": "b3855dad8022a9de1798fa50cd355efda5602f4ad6f458d47f01235543c3394b"
+  },
+  {
+    "file": "assets/approved/irina-concert.mp4",
+    "size": 24251733,
+    "sha256": "5e8e928ac9337fee400a931863888f88c3c021fc62ed3592a0514cdb35cce497"
+  },
+  {
+    "file": "assets/approved/irina-volumes-poster.jpg",
+    "size": 48655,
+    "sha256": "e6448ed16e025977ea8990507f6c73ad18cc0b30c29e4c7fafc1ce7e38895805"
+  },
+  {
+    "file": "assets/approved/irina-volumes.mp4",
+    "size": 1227385,
+    "sha256": "61ebcce099c0f81845d4196fb564ae715aec5c4285c66f769ff4121e07d155a4"
+  },
+  {
+    "file": "assets/approved/particle-formation-9s.mp4",
+    "size": 1730526,
+    "sha256": "39c2576122192cfe0b2ff5a8183169535294352f664bcf4bfb0ed22044990e19"
+  },
+  {
+    "file": "assets/approved/particle-formation-poster.jpg",
+    "size": 24255,
+    "sha256": "1013b3fe22ab1cc03d726db36a4ea5acef6ae0d1d9c92332b64deef7efc25fdf"
+  },
+  {
+    "file": "assets/approved/particle-whale.jpg",
+    "size": 110843,
+    "sha256": "fdf486cb2f3021762c67df288380788308bb5b575c6c7d35a26bb66adcffdbb8"
+  },
+  {
+    "file": "assets/approved/particles-city.png",
+    "size": 2423933,
+    "sha256": "281b128c7aec1919e071fd120e81596e5a5809d017a73664781880e41c7d2663"
+  },
+  {
+    "file": "assets/approved/particles-family-tree.png",
+    "size": 2663592,
+    "sha256": "a3639e8f4ee03de12840a7fb76f0ee0b4ae5befa9063ffe797100ce47a7be221"
+  },
+  {
+    "file": "assets/approved/particles-flight.png",
+    "size": 2424003,
+    "sha256": "649d69a6ed787282b1035123d788b1fca7368ff130f96b686a67ef522b252f53"
+  },
+  {
+    "file": "assets/approved/particles-flow.png",
+    "size": 2646420,
+    "sha256": "d12c55ebfdf039d042f1df943f1985a1b9ec091a47c060f05ebbe58eb46a48e3"
+  },
+  {
+    "file": "assets/approved/particles-plane.png",
+    "size": 2529859,
+    "sha256": "3cd0f08bf3a2cf609ddf93cb9aa9210df61a6d5ff62ad19bb5f0406da5a43213"
+  },
+  {
+    "file": "assets/approved/yakutia-dark-clean.png",
+    "size": 1932472,
+    "sha256": "8c547467c7ed65fc7a51d65e0ff3f52941e5a496aca3b10b7fa5ed5d8e8fca7d"
+  },
+  {
+    "file": "assets/approved/yakutia-dark.png",
+    "size": 2373816,
+    "sha256": "d5cdd972afcc8a8e9c41e0329a7f9b2dd6ea28c4d4693d89ed373fee1eed4035"
+  },
+  {
+    "file": "assets/approved/yakutia-light.png",
+    "size": 2294025,
+    "sha256": "00e62eae1e15e7997103e3b30650dec1fa289e9b12233810921bc955646154bd"
+  },
+  {
+    "file": "assets/approved/yakutia-steppe.png",
+    "size": 1863560,
+    "sha256": "49339147b6f70bb620978919f988d58c11c85aba7851d0cb58778b8abfc69081"
+  },
+  {
+    "file": "assets/concepts/colonnade-v2.png",
+    "size": 1499264,
+    "sha256": "29dc2c57fec2ec69ad8a25d0c3cfcaaac5f674377ca1794017db834c78a91314"
+  },
+  {
+    "file": "assets/concepts/colonnade.png",
+    "size": 2062408,
+    "sha256": "be90ec3ff95fae2720922d93e83363aeee4ddbb0089406122d96aa055f74dbae"
+  },
+  {
+    "file": "assets/concepts/fabric.png",
+    "size": 2314680,
+    "sha256": "d7994c2c6ef5fa3f1253b5f44c8875356ba8766f3bb37dc95224ff56132f5ef1"
+  },
+  {
+    "file": "assets/concepts/particles.png",
+    "size": 2551389,
+    "sha256": "2a507bc2104b65821f8f5a5d9f7180a94bd922633c6aa8b15ffb59078adfee1f"
+  },
+  {
+    "file": "assets/concepts/prompts.txt",
+    "size": 7380,
+    "sha256": "a96e9446048006c205e1ea71b2bf4b23237c81c3d43e8f09e8e9a0da245cf42d"
+  },
+  {
+    "file": "assets/concepts/yakutia.png",
+    "size": 2292702,
+    "sha256": "98cce61e11e04df969570d2ba78d728d53490619a36b236e8cabb2d9d8f82692"
+  },
+  {
+    "file": "assets/hall.jpg",
+    "size": 52920,
+    "sha256": "8662c58e89ee7b3afe98e31edabef865b85b421e4f164a12f2274ba15dffacf0"
+  },
+  {
+    "file": "assets/refs/ref-00.mp4",
+    "size": 3120361,
+    "sha256": "130eedf1885aceca6ce6543e61aecd65b330db378cfae41337c55e39081d738a"
+  },
+  {
+    "file": "assets/refs/ref-01.jpg",
+    "size": 117322,
+    "sha256": "80a994daad64ba862cb5c73c77ad3fd6e427ac84708503ef88cf99fed3343f58"
+  },
+  {
+    "file": "assets/refs/ref-02.jpg",
+    "size": 33417,
+    "sha256": "ca03c34c222a624a9d16c88e9c0b55b24bdf4273f53720960f36a66b5ff504cf"
+  },
+  {
+    "file": "assets/refs/ref-03.jpg",
+    "size": 107339,
+    "sha256": "94061e463f2f1a3296d7cc13b2ffde5decb6dec771866d94f715f763e2c62d68"
+  },
+  {
+    "file": "assets/refs/ref-04.jpg",
+    "size": 102443,
+    "sha256": "ea1159a5d5a8f74180a15d38657d9c0f5e547beeb624399995534abe0cbb11dd"
+  },
+  {
+    "file": "assets/refs/ref-06.jpg",
+    "size": 132182,
+    "sha256": "32c7980ae9b615ddb61a21cda99779dc55647ed6ddc2355d8dc4b8e5b16fb4fd"
+  },
+  {
+    "file": "assets/refs/ref-07.jpg",
+    "size": 165850,
+    "sha256": "63663870a7030a0b8234fdf28cdf80426fe232e5730aa0a11b3f0f4c82cf5f7f"
+  },
+  {
+    "file": "assets/refs/ref-08.jpg",
+    "size": 88049,
+    "sha256": "968b494ad05fce1ca9a402417b2c47dbcb4c8b09368505a90b12860176263f7f"
+  },
+  {
+    "file": "assets/refs/ref-10.mp4",
+    "size": 2773993,
+    "sha256": "8c93dcb5e9db77eadded136a450160342e5354fd9387c03ce60cfe70baf428ab"
+  },
+  {
+    "file": "assets/refs/ref-11.mp4",
+    "size": 1161128,
+    "sha256": "dbc002b59a4e46c5d7c4ab168df240756f6a1bc95bdfba922296df4cbf3ed91a"
+  },
+  {
+    "file": "assets/refs/ref-12.mp4",
+    "size": 7478169,
+    "sha256": "c4d39110db2ee24d0c8f15faa41f0799169a25e2df7ebdd6cf1609900f1dfedd"
+  },
+  {
+    "file": "assets/refs/ref-13.jpg",
+    "size": 76338,
+    "sha256": "536290e3489e46ab68acb287c8ed69827cb401661f6115f0bde1b66889a2a1af"
+  },
+  {
+    "file": "assets/refs/ref-14.mp4",
+    "size": 4018014,
+    "sha256": "6131b25cb3917f04e42d70f9f5a8e32c145ba9d60d2ed9027d338b623f9a000b"
+  },
+  {
+    "file": "assets/refs/ref-15.jpg",
+    "size": 119948,
+    "sha256": "9473dbe6126b3f9e1c4950bf7b47ccd2000f50e76e0cbcdd8350101b2eae55a3"
+  },
+  {
+    "file": "assets/refs/ref-16.jpg",
+    "size": 132476,
+    "sha256": "53b914de286fa4ecadd18033bbda8c6ba64770975642b4fca63e11f42978d27e"
+  },
+  {
+    "file": "assets/refs/thumb-00.jpg",
+    "size": 36951,
+    "sha256": "6cd864b57623c84593d5b66328f6b2728beb606355ac554a43c307507efeb3fa"
+  },
+  {
+    "file": "assets/refs/thumb-10.jpg",
+    "size": 11585,
+    "sha256": "b18b03b761830d3b034fa1cfaf7bc9abe9ffaee09b50e518a728747e9a015f59"
+  },
+  {
+    "file": "assets/refs/thumb-11.jpg",
+    "size": 29348,
+    "sha256": "04044ff5a9d5924cb02aa73ab0d49f6016fe0a92ed4a0e2eaf2314fe172bb2ab"
+  },
+  {
+    "file": "assets/refs/thumb-12.jpg",
+    "size": 11425,
+    "sha256": "c63560033f049764fad991e06559d531314be99861f32e7649d8c11fc79a5bb6"
+  },
+  {
+    "file": "assets/refs/thumb-14.jpg",
+    "size": 21026,
+    "sha256": "b90c3ec68a6ed7696ff2353a4171ea86a41d10c824ab279c5d7b72394420698c"
+  },
+  {
+    "file": "assets/refs/web-1.jpg",
+    "size": 26868,
+    "sha256": "5d76c8617c18ae0d67d21c018e8f83dcece30ea881ad07747c619d10868d5e83"
+  },
+  {
+    "file": "assets/refs/web-100.jpg",
+    "size": 47263,
+    "sha256": "5d6714d2d3e8be8f6b6bc81782e0592e15fd014f3b19f4f1eb3fbe61dee460d5"
+  },
+  {
+    "file": "assets/refs/web-2.jpg",
+    "size": 42395,
+    "sha256": "a38afe5fe225eaf3eeefaf80f5b41d5ac7a273f5adf7a7999bcdf380d26bc11b"
+  },
+  {
+    "file": "assets/refs/web-23.jpg",
+    "size": 70364,
+    "sha256": "fbd7bd5a948ec31a99b33974109047d654a14aaa08cbfbf3993e8de477d6c6a8"
+  },
+  {
+    "file": "assets/refs/web-24.jpg",
+    "size": 68843,
+    "sha256": "376c963fef01bea73b9765ca58059daa9ede3e847a9eb6dcf85a22bb084d1502"
+  },
+  {
+    "file": "assets/refs/web-28.jpg",
+    "size": 148262,
+    "sha256": "cde51dee79189e91f05f74961b5a4469456d5c268dcf22b764c47b2b95d64e36"
+  },
+  {
+    "file": "assets/refs/web-3.jpg",
+    "size": 58104,
+    "sha256": "92c828232bb2ca677160a020f407af5b551f5d4fb27da13ed00d621cd1b3b1dc"
+  },
+  {
+    "file": "assets/refs/web-4.jpg",
+    "size": 39664,
+    "sha256": "1b9bfc24af65698f463016559abed0045ccfe48af57c5c3c6b2c16befc5c81bb"
+  },
+  {
+    "file": "assets/refs/web-41.jpg",
+    "size": 137984,
+    "sha256": "cd3d71ed014faddfc29bbdb48e5b5ce58800d5c572e568a90721f04e6167c23d"
+  },
+  {
+    "file": "assets/refs/web-45.jpg",
+    "size": 145420,
+    "sha256": "3f09f6726d7695d5a0feba8d471362ed19c10ec063b1e2ae35f35119e9f9f1af"
+  },
+  {
+    "file": "assets/refs/web-61.jpg",
+    "size": 52012,
+    "sha256": "1f1652fa7c3451f79d4b099b2cab4debf75eb82e9f669dcc40788bd3428a6087"
+  },
+  {
+    "file": "assets/refs/web-62.jpg",
+    "size": 28048,
+    "sha256": "1f95097d0d3ec45f40d672eb5715d03a482d9eb6beb99cd5dbfb8ecc83e84aa4"
+  },
+  {
+    "file": "assets/refs/web-70.jpg",
+    "size": 68904,
+    "sha256": "0cc8cd4152a72aaf9cdbd44c16b0f4fd92a2e2768474959f2ef4daeef3ea46c5"
+  },
+  {
+    "file": "assets/refs/web-72.jpg",
+    "size": 137984,
+    "sha256": "cd3d71ed014faddfc29bbdb48e5b5ce58800d5c572e568a90721f04e6167c23d"
+  },
+  {
+    "file": "assets/refs/web-78.jpg",
+    "size": 52564,
+    "sha256": "f9dd6f743118504b5280ffebae70fa85b8a81b783f636faabe4bc5e6e5ae451f"
+  },
+  {
+    "file": "assets/refs/web-79.jpg",
+    "size": 32429,
+    "sha256": "8246d981e4090188768c2aad675ed250e6cda635f6704ddde64e3da07c4cdc68"
+  },
+  {
+    "file": "assets/refs/web-82.jpg",
+    "size": 39326,
+    "sha256": "e94e125c71de118a05d6bba3e3a795bc8eba5533c28f4b7f65bfdd5e07bbd83d"
+  },
+  {
+    "file": "assets/refs/web-83.jpg",
+    "size": 56897,
+    "sha256": "6c5e189ebe68b4ad11db16bf6498fa8f2dd01cdf97df212ad4176817a4857b72"
+  },
+  {
+    "file": "assets/refs/web-92.jpg",
+    "size": 128595,
+    "sha256": "90dbcae43eb049e15fff1ca6c289ff6c0371a80ab3ea054896b84ce4734e1a0a"
+  },
+  {
+    "file": "assets/refs/web-93.jpg",
+    "size": 80677,
+    "sha256": "3320725c576bba703f905ed9b0bca716014c149c75ed750f69bf407c1a664078"
+  },
+  {
+    "file": "assets/refs/web-94.jpg",
+    "size": 52897,
+    "sha256": "ae124aa877812b9b6c954b2851bc4e1f9aafd5d27096b7582e8d566f0092fd04"
+  },
+  {
+    "file": "assets/refs/web-97.jpg",
+    "size": 46260,
+    "sha256": "501f879d8cc68d168dd3720e42ce9eb41cc27402aaf8b1b441ece46db6e86540"
+  },
+  {
+    "file": "assets/stage.jpg",
+    "size": 170311,
+    "sha256": "64d177df74d1d4327641746e69be7df4d7d6bdddc732a8b597745266b49530ba"
+  }
+]
