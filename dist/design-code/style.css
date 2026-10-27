@@ -15,3 +15,5 @@ main{max-width:1380px}.principles-layout{display:grid;grid-template-columns:minm
 @media(min-width:1600px){.principles-copy{gap:60px}}
 @media(max-width:950px){.principles-copy{gap:48px}}
 @media(max-width:650px){.principles-copy{gap:40px}.principles-refs,.principles-refs .mosaic-row{gap:12px}}
+.principles-layout{position:relative}.reference-links{position:absolute;inset:0;display:block;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:3;fill:none;stroke:#000;stroke-width:.85;stroke-linecap:butt;stroke-linejoin:miter}.reference-links line{vector-effect:non-scaling-stroke}
+@media(max-width:650px){.reference-links{display:none}}
