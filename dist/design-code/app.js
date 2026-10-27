@@ -8,8 +8,8 @@ viewer.addEventListener('cancel',e=>{e.preventDefault();closeRef();});
 viewer.addEventListener('click',e=>{if(e.target===viewer)closeRef();});
 document.querySelector('.viewer-prev').addEventListener('click',()=>showRef(current-1));document.querySelector('.viewer-next').addEventListener('click',()=>showRef(current+1));
 document.addEventListener('keydown',e=>{if(!viewer.open)return;if(e.key==='ArrowRight'){e.preventDefault();showRef(current+1);}if(e.key==='ArrowLeft'){e.preventDefault();showRef(current-1);}});
-const links=[...document.querySelectorAll('nav a')];const sections=links.map(a=>document.querySelector(a.getAttribute('href')));
-let scheduled=false;function updateNav(){scheduled=false;let active=sections[0];for(const section of sections)if(section.getBoundingClientRect().top<220)active=section;links.forEach(a=>{const on=a.getAttribute('href')==='#'+active.id;a.classList.toggle('active',on);if(on)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});}
+const links=[...document.querySelectorAll('nav a[href^="#"]')];const sections=links.map(a=>document.querySelector(a.getAttribute('href')));
+let scheduled=false;function updateNav(){scheduled=false;if(!sections.length)return;let active=sections[0];for(const section of sections)if(section.getBoundingClientRect().top<220)active=section;links.forEach(a=>{const on=a.getAttribute('href')==='#'+active.id;a.classList.toggle('active',on);if(on)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});}
 window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(updateNav);}},{passive:true});updateNav();
 
 // Fine reference guides follow the actual text and image bounds at every size.
@@ -42,8 +42,8 @@ function drawReferenceGuides(){
 }
 let referenceFrame=0;
 function scheduleReferenceGuides(){cancelAnimationFrame(referenceFrame);referenceFrame=requestAnimationFrame(drawReferenceGuides);}
-new ResizeObserver(scheduleReferenceGuides).observe(referenceLayout);
-referenceLayout.querySelectorAll('img').forEach(img=>img.addEventListener('load',scheduleReferenceGuides));
+if(referenceLayout)new ResizeObserver(scheduleReferenceGuides).observe(referenceLayout);
+referenceLayout?.querySelectorAll('img').forEach(img=>img.addEventListener('load',scheduleReferenceGuides));
 document.fonts?.ready.then(scheduleReferenceGuides);
 window.addEventListener('resize',scheduleReferenceGuides,{passive:true});
 scheduleReferenceGuides();
