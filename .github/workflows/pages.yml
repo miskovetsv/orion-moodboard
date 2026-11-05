@@ -6,6 +6,7 @@ on:
 permissions:
   contents: read
   pages: write
+  deployments: write
   id-token: write
 concurrency:
   group: moodboard-pages
@@ -23,6 +24,12 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      - name: Release stale Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST repos/${{ github.repository }}/deployments/7586065047/statuses -f state=inactive -f description='Release stalled Pages publication'
+          gh api --method POST repos/${{ github.repository }}/pages/deployments/065fd821c46b47148090e1c5ee6e5414d4fec35b/cancel
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
