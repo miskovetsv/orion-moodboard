@@ -23,19 +23,6 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: dist
-      - name: Cancel stalled Pages deployment
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh api --method POST repos/${{ github.repository }}/pages/deployments/065fd821c46b47148090e1c5ee6e5414d4fec35b/cancel
-          for attempt in {1..12}; do
-            status=$(gh api repos/${{ github.repository }}/pages/deployments/065fd821c46b47148090e1c5ee6e5414d4fec35b --jq '.status')
-            echo "Previous deployment status: $status"
-            case "$status" in
-              deployment_queued|deployment_in_progress|cancel_in_progress) sleep 5 ;;
-              *) break ;;
-            esac
-          done
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
