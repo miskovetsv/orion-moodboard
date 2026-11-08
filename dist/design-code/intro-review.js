@@ -11,6 +11,11 @@ document.addEventListener('keydown',e=>{if(!dialog.open)return;if(e.key==='Arrow
 const plan=document.querySelector('#scenario-plan');
 document.querySelectorAll('[data-mode]').forEach(b=>{if(b.tagName!=='BUTTON')return;b.addEventListener('click',()=>{plan.dataset.mode=b.dataset.mode;document.querySelectorAll('.view-switch button').forEach(x=>{const on=x===b;x.classList.toggle('selected',on);x.setAttribute('aria-pressed',String(on));});});});
 document.querySelector('#chapter-select')?.addEventListener('change',e=>{if(e.target.value){const target=document.getElementById(e.target.value);history.replaceState(null,'','#'+e.target.value);target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}});
-// Load reference clips only when requested; pause them when they leave the viewport.
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(!e.isIntersecting)e.target.pause();}),{threshold:0});document.querySelectorAll('video').forEach(v=>observer.observe(v));
+// Play autoplay reference clips on entry and pause clips outside the viewport.
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{
+ const video=e.target;
+ if(!e.isIntersecting){video.pause();return;}
+ if(video.autoplay){video.muted=true;video.play().catch(()=>{});}
+}),{threshold:0});
+document.querySelectorAll('video').forEach(v=>observer.observe(v));
 })();
